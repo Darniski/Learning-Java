@@ -17,4 +17,4 @@ class Shuffle {
 
         }
     }
-} // This is in reference to
+} // This is in reference to page 20 Code magnets
