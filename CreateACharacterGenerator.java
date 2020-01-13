@@ -13,7 +13,7 @@ public class CreateACharacterGenerator {
         // creates an number based on the length of the array
         int nameFirstLength = firstNames.length;
         int nameLastLength = lastNames.length;
-        // randomly selects a number from the array and multiples it
+        // randomly selects a random number multiples it by the length of the array
         int names1 = (int) (Math.random() * nameFirstLength);
         int names2 = (int) (Math.random() * nameLastLength);
         // Generates a random character name
