@@ -1,16 +1,14 @@
-public class MixedMessages3 {
+public class MixedMessages4 {
     public static void main(String[] args) {
         int x = 0;
         int y = 0;
         while (x < 5) {
-            y = y + 2;
-            if (y > 4) {
-                y = y - 1;
-            }
+           x = x + 1; 
+           y = y + x; 
             System.out.print(x + "" + y + " ");
             x = x + 1;
         }
 
     }
 }
-// output  = 02 14 25 36 47
+// output  = 11 34 59

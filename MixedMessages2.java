@@ -10,3 +10,5 @@ public class MixedMessages2 {
 
     }
 }
+
+// output = 00 11 23 36 410
